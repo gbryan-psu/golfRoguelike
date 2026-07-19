@@ -17,7 +17,6 @@
 # Unity source files
 *.cginc                 text
 *.compute               text linguist-language=hlsl
-*.cs                    text diff=csharp
 *.hlsl                  text linguist-language=hlsl
 *.raytrace              text linguist-language=hlsl
 *.shader                text
@@ -37,7 +36,6 @@
 
 # Unity YAML files
 *.anim                  unity-yaml
-*.asset                 unity-yaml
 *.brush                 unity-yaml
 *.controller            unity-yaml
 *.flare                 unity-yaml
@@ -47,11 +45,9 @@
 *.lighting              unity-yaml
 *.mask                  unity-yaml
 *.mat                   unity-yaml
-*.meta                  unity-yaml
 *.mixer                 unity-yaml
 *.overrideController    unity-yaml
 *.playable              unity-yaml
-*.prefab                unity-yaml
 *.preset                unity-yaml
 *.renderTexture         unity-yaml
 *.scenetemplate         unity-yaml
@@ -60,7 +56,6 @@
 *.spriteatlas           unity-yaml
 *.spriteatlasv2         unity-yaml
 *.terrainlayer          unity-yaml
-*.unity                 unity-yaml
 
 # "physic" for 3D but "physics" for 2D
 *.physicMaterial        unity-yaml
@@ -130,6 +125,7 @@ Packages/packages-lock.json linguist-generated
 *.pict                  lfs
 *.png                   lfs
 *.psd                   lfs
+*.psb
 *.tga                   lfs
 *.tif                   lfs
 *.tiff                  lfs
